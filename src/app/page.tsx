@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex  items-center justify-center gap-6 max-sm:flex-col ">
           <img className="w-[400px] h-full" src="face.png" alt="Nodir Makhkamov" />
           <div>
-            <h1 className="font-Gravi text-[44px]">Hey friends ✌️</h1>
+            <h1 className="font-Gravi text-[80px] font-bold">Hey friends ✌️</h1>
             <p className="mt-6  text-base text-[30px] text-zinc-900 max-w-2xl">
               I&apos;m Nodir Makhkamov, a software engineer who loves building high-quality web applications and exploring new technologies.
               <span className="text-bold">Welcome to my digital garden where I share my projects and thoughts.</span>

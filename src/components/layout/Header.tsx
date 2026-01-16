@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
+// import { Logo } from '../../../public/nameLogo.png'
 
 const navItems = [
     { href: '/about', label: 'My Book' },
@@ -16,9 +17,10 @@ export function Header() {
             <nav className="flex items-center justify-between h-16 w-full">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 group">
-                    <span className="text-2xl font-serif font-bold tracking-tight text-foreground group-hover:text-primary transition-colors">
+                    {/* <span className="text-2xl font-serif font-bold tracking-tight text-foreground group-hover:text-primary transition-colors">
                         Nodir Makhkamov
-                    </span>
+                    </span> */}
+                    <img className='w-[300px]' src='/nameLogo.png' alt="Nodir Makhkamov" />
                 </Link>
 
                 {/* Navigation - Hidden on mobile, shown on md+ */}
