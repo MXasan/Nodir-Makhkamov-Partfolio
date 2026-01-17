@@ -70,6 +70,7 @@ export default function Home() {
             I&apos;ve worked on various projects ranging from web apps to backend systems. Check out the <Link href="/projects" className="text-cyan-600 hover:text-cyan-500 underline decoration-cyan-500/30 underline-offset-4">projects page</Link> to see what I&apos;ve been working on.
           </p>
         </div>
+        
       </div >
       <GridBoxs />
     </Container>

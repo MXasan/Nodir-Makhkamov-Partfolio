@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
 // import { Logo } from '../../../public/nameLogo.png'
 
@@ -11,7 +12,7 @@ const navItems = [
 
 export function Header() {
     return (
-        <header className="container flex py-4 px-8 w-full  items-center justify-center mx-auto mt-6 rounded-t-2xl  bg-background/90 backdrop-blur-md transition-all duration-300">
+        <header className="container flex py-4 px-8   items-center w-7xl justify-center mx-auto mt-6 rounded-t-2xl  bg-background/90 backdrop-blur-md transition-all duration-300">
             {/* <Container> */}
             <nav className="flex items-center justify-between h-16 w-full  max-w-[1000px]">
                 {/* Logo */}
