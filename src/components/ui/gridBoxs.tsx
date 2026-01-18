@@ -5,14 +5,13 @@ import Link from "next/link";
 const GridLayout: React.FC = () => {
     return (
         <div className="flex items-center justify-center mt-28">
-            <div className="grid grid-cols-2 grid-rows-5 gap-15 w-[1200px] h-[1400px]">
-
+            <div className="grid grid-cols-2 grid-rows-5 gap-15 w-[1200px] h-[1400px] mb-22">
                 {/* 1 */}
                 <div>
                     <p className="flex justify-self-start items-start flex-col font-def text-[70px] box">
                         How Can
                         <span className="font-Gravi font-bold relative flex inline-block  ">
-                           I Help
+                            I Help
                             <span className="bg-[url('/variant=6.svg')] bg-cover bg-center w-full h-85 ">
                                 You?
                             </span>

@@ -15,17 +15,17 @@ export function Footer() {
                     <div className="grid grid-cols-1 md:grid-cols-12 gap-12 mb-16">
 
                         {/* Левая колонка: Лого и Соцсети */}
-                        <div className="md:col-span-4 flex flex-col gap-6">
-                            <div className="relative w-40 h-12">
+                        <div className="md:col-span-4 flex flex-col">
+                            <div className="relative w-70 h-22">
                                 <Image
-                                    src="/nameLogo.svg" // Убедись, что файл в папке public
-                                    alt="Ali Abdaal"
+                                    src="/nameLogo.png" // Убедись, что файл в папке public
+                                    alt="Nodir Makhkamov"
                                     fill
                                     className="object-contain"
                                 />
                             </div>
-                            <p className="text-gray-500 text-sm">
-                                © Ali Abdaal 2025. All rights reserved.
+                            <p className="text-gray-500 text-sm mb-6">
+                                © Nodir Makhkamov 2025. All rights reserved.
                             </p>
                             <div className="flex gap-3">
                                 {[FaYoutube, FaInstagram, FaLinkedinIn, FaTiktok, FaTwitter, FaFacebookF].map((Icon, i) => (
