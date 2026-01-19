@@ -6,27 +6,22 @@ import Link from "next/link";
 export default function Home() {
   return (
     <Container>
-      <div className=" flex items-center flex-col bg-background w-full rounded-b-2xl pb-22 ">
-        <div className="flex flex-col justify-between py-20  sm:py-32 md:py-4 max-w-[1200px]">
+      <div className=" flex items-center flex-col bg-background w-full rounded-b-2xl pb-22 px-5 sm: px-10 md: px-10 ">
+        <div className="flex flex-col justify-between py-10 md:py-20  md:py-4 max-w-[1200px]">
           {/* <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Software Engineer, Creator, and Learner.
         </h1> */}
-          <div className="flex container-width items-center justify-between gap-20  max-sm:flex-col ">
-            <img className="w-[400px] h-full" src="face.png" alt="Nodir Makhkamov" />
-            <div>
-              {/* <div className="flex items-center justify-start">
-
-                <h1 className="font-Gravi text-[70px] font-bold">Hey friends</h1>
-                <img src="./variant=3.svg" alt="hey" />
-              </div> */}
-              <div className="flex items-center gap-2 text-[70px] font-serif font-bold relative">
+          <div className="flex container-width items-center justify-between gap-10 lg:gap-20  max-sm:flex-col ">
+            <img className="w-[200] md:w-[300] lg:w-[400px] h-full" src="face.png" alt="Nodir Makhkamov" />
+            <div className="flex items-center flex-col">
+              <div className="flex items-center gap-2 text-4xl max-sm:mb-5 md:text-4xl lg:text-6xl xl:text-7xl font-serif font-bold relative">
                 <span>Hey</span>
                 <span className="relative inline-block">
                   Friends
-                  {/* SVG underline */}
-                  <div className="absolute -bottom-1 left-0 w-full h-8">
+
+                  <div className="absolute -bottom-4 left-0 w-full h-8">
                     <Image
-                      src="/variant=2.svg" // Path to public/variant=2.svg
+                      src="/variant=2.svg"
                       alt="underline"
                       fill
                       className="object-contain"
@@ -34,14 +29,14 @@ export default function Home() {
                   </div>
 
                 </span>
-                <img
-                  src="/variant=3.svg" // Path to public/variant=2.svg
+                <img  
+                  src="/variant=3.svg" 
                   alt="underline"
-                  className="mx-4 "
+                  className="mx-4 w-10 md:w-14 "
                 />
 
               </div>
-              <p className="mt-6  text-base text-[27px] text-zinc-900 max-w-2xl">
+              <p className=" md:mt-3 lg:mt-6  text-base lg:text-xl xl:text-3xl text-zinc-900 max-w-2xl ">
                 I&apos;m Nodir Makhkamov, a software engineer who loves building high-quality web applications and exploring new technologies.
                 <span className="text-bold">Welcome to my digital garden where I share my projects and thoughts.</span>
               </p>

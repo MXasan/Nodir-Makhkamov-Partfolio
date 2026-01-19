@@ -42,8 +42,10 @@ export default function RootLayout({
       <body
         className={`${fraunces.variable} ${inter.variable} antialiased min-h-screen flex flex-col bg-background text-foreground font-sans`}
       >
-        <Header />
-        <main className="flex-1">
+        <div className="flex-1 mx-3 sm:mx-5 md:mx-7">
+          <Header />
+        </div>
+        <main className="flex-1 px-3 sm:px-5 md:px-7">
           {children}
         </main>
         <Footer />

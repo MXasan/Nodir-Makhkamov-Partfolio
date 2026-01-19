@@ -12,7 +12,8 @@ const navItems = [
 
 export function Header() {
     return (
-        <header className="container flex py-4 px-8   items-center w-7xl justify-center mx-auto mt-6 rounded-t-2xl  bg-background/90 backdrop-blur-md transition-all duration-300">
+
+        <header className="flex py-4 px-8 items-center mx-auto max-w-7xl w-full justify-center  mt-6 rounded-t-2xl  bg-background/90 backdrop-blur-md transition-all duration-300 ">
             {/* <Container> */}
             <nav className="flex items-center justify-between h-16 w-full  max-w-[1200px]">
                 {/* Logo */}
@@ -24,7 +25,7 @@ export function Header() {
                 </Link>
 
                 {/* Navigation - Hidden on mobile, shown on md+ */}
-                <ul className="hidden md:flex items-center gap-6">
+                <ul className="hidden lg:flex items-center gap-6">
                     {navItems.map((item) => (
                         <li key={item.href}>
                             <Link
@@ -38,20 +39,21 @@ export function Header() {
                 </ul>
 
                 {/* CTA Button */}
-                <div className="flex items-center gap-4">
-                    <Link href="/contact">
+                <div className=" flex items-center gap-4">
+                    <Link href="/contact" className='max-sm:hidden'>
                         <Button size="sm" variant="primary">
                             Join 3k+ Subscribers
                         </Button>
                     </Link>
 
                     {/* Mobile Menu Button Placeholder */}
-                    <button className="md:hidden p-2 text-foreground">
+                    <button className="lg:hidden p-2 text-foreground bg-amber-200 p-1.5 rounded-md">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
                     </button>
                 </div>
             </nav>
             {/* </Container> */}
         </header>
+
     );
 }
