@@ -6,7 +6,6 @@ const GridLayout: React.FC = () => {
     return (
         <div className="flex items-center  justify-center mt-28">
             <div className="grid md:grid-cols-2 grid-rows-5 gap-10 lg:gap-15 w-[1200px] md:h-[1400px] mb-22">
-                {/* 1 */}
                 <div className="h-12">
                     <p className="flex justify-self-start items-start flex-col font-def  text-[60px] lg:text-[70px]">
                         How Can

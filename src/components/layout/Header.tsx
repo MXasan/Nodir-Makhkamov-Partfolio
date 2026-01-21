@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
 import { Button } from '@/components/ui/Button';
+import  Menu  from '@/components/ui/menu'
+
 // import { Logo } from '../../../public/nameLogo.png'
 
 const navItems = [
@@ -48,11 +50,14 @@ export function Header() {
 
                     {/* Mobile Menu Button Placeholder */}
                     <button className="lg:hidden p-2 text-foreground bg-amber-200 p-1.5 rounded-md">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+                        <Menu />
                     </button>
                 </div>
             </nav>
             {/* </Container> */}
+
+            {/* Menu */}
+
         </header>
 
     );
