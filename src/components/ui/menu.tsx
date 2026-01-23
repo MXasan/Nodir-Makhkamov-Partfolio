@@ -13,7 +13,7 @@ const Menu = () => {
         { href: '/services', label: 'Services' },
     ];
     return (
-        <div className='flex z-50'>
+        <div className='z-50 flex'>
             <button
                 onClick={() => setIsOpen(!isOpen)}
                 className="relative z-50 flex flex-col gap-1 p-2"
@@ -33,12 +33,12 @@ const Menu = () => {
             </button>
             <div
                 className={`fixed z-auto top-0 right-0 h-full w-100 bg-white shadow-lg transition-transform duration-300 h-lvh ${isOpen ? 'translate-x-0' : 'translate-x-full hidden'}`}>
-                <ul className="flex flex-col gap-10">
+                <ul className="flex flex-col gap-5 mt-30">
                     {navItems.map((item) => (
                         <li key={item.href}>
                             <Link
                                 href={item.href}
-                                className="text-lg font-medium text-foreground/80 hover:text-foreground hover:underline decoration-2 underline-offset-4 decoration-primary transition-all"
+                                className="text-lg font-semibold transition-all text-foreground/80 hover:text-foreground hover:underline decoration-2 underline-offset-4 decoration-primary"
                             >
                                 {item.label}
                             </Link>

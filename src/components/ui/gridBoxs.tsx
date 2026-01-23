@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const GridLayout: React.FC = () => {
     return (
-        <div className="flex items-center  justify-center mt-28">
+        <div className="flex items-center justify-center mt-28">
             <div className="grid md:grid-cols-2 grid-rows-5 gap-10 lg:gap-15 w-[1200px] md:h-[1400px] mb-22">
                 <div className="h-12">
                     <p className="flex justify-self-start items-start flex-col font-def  text-[60px] lg:text-[70px]">
                         How Can
-                        <span className="font-Gravi font-bold relative flex inline-block  ">
+                        <span className="flex inline-block font-bold font-Gravi ">
                             I Help
                             <span className="bg-[url('/variant=6.svg')] bg-cover bg-center w-full h-85 ">
                                 You?
@@ -23,14 +23,14 @@ const GridLayout: React.FC = () => {
                         src="/variant=13.svg"
                         alt="youtube Nodir Makhkamov"
                     />
-                    <p className="font-Gravi font-bold text-4xl">Grow a YouTube Chanel</p>
-                    <p className="font-medium text-xl">Learn how to start and grow a life-changing
+                    <p className="text-4xl font-bold font-Gravi">Grow a YouTube Chanel</p>
+                    <p className="text-xl font-medium">Learn how to start and grow a life-changing
                         YouTube channel based on my years of
                         experience.
                     </p>
                     <Link
                         href="/projects"
-                        className="text-sm font-semibold leading-6 text-zinc-900 flex items-center gap-1 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 dark:hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
@@ -41,14 +41,14 @@ const GridLayout: React.FC = () => {
                         src="/variant=9.svg"
                         alt="youtube Nodir Makhkamov"
                     />
-                    <p className="font-Gravi font-bold text-4xl">Grow a YouTube Chanel</p>
-                    <p className="font-medium text-xl">Learn how to start and grow a life-changing
+                    <p className="text-4xl font-bold font-Gravi">Grow a YouTube Chanel</p>
+                    <p className="text-xl font-medium">Learn how to start and grow a life-changing
                         YouTube channel based on my years of
                         experience.
                     </p>
                     <Link
                         href="/projects"
-                        className="text-sm font-semibold leading-6 text-zinc-900 flex items-center gap-1 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 dark:hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
@@ -59,14 +59,14 @@ const GridLayout: React.FC = () => {
                         src="/variant=15.svg"
                         alt="youtube Nodir Makhkamov"
                     />
-                    <p className="font-Gravi font-bold text-4xl">Grow a YouTube Chanel</p>
-                    <p className="font-medium text-xl">Learn how to start and grow a life-changing
+                    <p className="text-4xl font-bold font-Gravi">Grow a YouTube Chanel</p>
+                    <p className="text-xl font-medium">Learn how to start and grow a life-changing
                         YouTube channel based on my years of
                         experience.
                     </p>
                     <Link
                         href="/projects"
-                        className="text-sm font-semibold leading-6 text-zinc-900 flex items-center gap-1 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 dark:hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
@@ -77,25 +77,25 @@ const GridLayout: React.FC = () => {
                         src="/variant=11.svg"
                         alt="youtube Nodir Makhkamov"
                     />
-                    <p className="font-Gravi font-bold text-4xl">Grow a YouTube Chanel</p>
-                    <p className="font-medium text-xl">Learn how to start and grow a life-changing
+                    <p className="text-4xl font-bold font-Gravi">Grow a YouTube Chanel</p>
+                    <p className="text-xl font-medium">Learn how to start and grow a life-changing
                         YouTube channel based on my years of
                         experience.
                     </p>
                     <Link
                         href="/projects"
-                        className="text-sm font-semibold leading-6 text-zinc-900 flex items-center gap-1 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 dark:hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
                 </div>
 
-                <div className="row-span-3 box-puzzel flex items-center justify-center flex-col">
-                    <p className="font-Gravi font-bold text-5xl">...and more!</p>
+                <div className="flex flex-col items-center justify-center row-span-3 box-puzzel">
+                    <p className="text-5xl font-bold font-Gravi">...and more!</p>
 
                     <Link
                         href="/projects"
-                        className="text-sm font-semibold leading-6 text-zinc-900 flex items-center gap-1 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 dark:hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
