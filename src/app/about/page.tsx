@@ -9,10 +9,10 @@ export default function About() {
     return (
         <Container>
             <div className="py-16 sm:py-24">
-                <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl mb-8">
+                <h1 className="text-4xl font-bold tracking-tight text-zinc-800  text-zinc-100 sm:text-5xl mb-8">
                     About Me
                 </h1>
-                <div className="prose prose-zinc dark:prose-invert max-w-none">
+                <div className="prose prose-zinc  prose-invert max-w-none">
                     <p className="lead">
                         I&apos;m a passionate software engineer with a focus on building scalable and user-friendly applications.
                         With years of experience in full-stack development, I enjoy solving complex problems and delivering high-quality code.

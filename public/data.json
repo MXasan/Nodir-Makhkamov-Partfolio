@@ -1,0 +1,44 @@
+{
+    "articles": [
+        {
+            "id": "article1",
+            "title": "How to Stay Productive",
+            "img": "img-cover-1.jpg",
+            "textIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+            "subtitles": [
+                {
+                    "STitle": "Why Productivity Matters",
+                    "SText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam.",
+                    "SImg": "img-sub-1.jpg"
+                },
+                {
+                    "STitle": "Simple Daily Habits",
+                    "SText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.",
+                    "SImg": "img-sub-2.jpg"
+                }
+            ],
+            "tags": [
+                "productivity"
+            ],
+            "rate": 5
+        },
+        {
+            "id": "article2",
+            "title": "Deep Focus for Developers",
+            "img": "img-cover-2.jpg",
+            "textIntro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.",
+            "subtitles": [
+                {
+                    "STitle": "Eliminate Distractions",
+                    "SText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+                    "SImg": "img-sub-3.jpg"
+                }
+            ],
+            "tags": [
+                "productivity",
+                "focus"
+            ],
+            "rate": 4.8
+        }
+    ]
+}

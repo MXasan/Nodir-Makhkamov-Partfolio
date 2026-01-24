@@ -8,7 +8,7 @@ export default function Home() {
     <Container>
       <div className="flex flex-col items-center w-full px-5 px-10 bg-background rounded-b-2xl pb-22 sm: md:">
         <div className="flex flex-col justify-between py-10 md:py-20  md:py-4 max-w-[1200px]">
-          {/* <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+          {/* <h1 className="text-4xl font-bold tracking-tight text-zinc-800 text-zinc-100 sm:text-5xl">
           Software Engineer, Creator, and Learner.
         </h1> */}
           <div className="flex items-center justify-between gap-10 container-width lg:gap-20 max-sm:flex-col ">
@@ -32,22 +32,22 @@ export default function Home() {
           {/* <div className="flex gap-6 mt-10">
             <Link
               href="/contact"
-              className="rounded-md bg-zinc-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
+              className="rounded-md bg-zinc-900 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-zinc-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-900  bg-zinc-100  text-zinc-900  hover:bg-zinc-300"
             >
               Get in touch
             </Link>
             <Link
               href="/projects"
-              className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 dark:text-zinc-100 hover:text-cyan-600 dark:hover:text-cyan-400"
+              className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 text-zinc-100 hover:text-cyan-600 hover:text-cyan-400"
             >
               View Projects <span aria-hidden="true">→</span>
             </Link>
           </div> */}
         </div>
 
-        {/* <div className="py-10 border-t border-zinc-100 dark:border-zinc-800">
-          <h2 className="mb-6 text-2xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">Recent Work</h2>
-          <p className="text-zinc-500 dark:text-zinc-400">
+        {/* <div className="py-10 border-t border-zinc-100 border-zinc-800">
+          <h2 className="mb-6 text-2xl font-semibold tracking-tight text-zinc-900 text-zinc-100">Recent Work</h2>
+          <p className="text-zinc-500 text-zinc-400">
             I&apos;ve worked on various projects ranging from web apps to backend systems. Check out the <Link href="/projects" className="underline text-cyan-600 hover:text-cyan-500 decoration-cyan-500/30 underline-offset-4">projects page</Link> to see what I&apos;ve been working on.
           </p>
         </div> */}
