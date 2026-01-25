@@ -13,7 +13,9 @@
   --secondary: #5DCDF1;
   --font-Gravitas: "Roboto Slab", serif;
   --font-default: "Google Sans", sans-serif;
+
 }
+
 
 @theme inline {
   --color-background: var(--background);
@@ -69,4 +71,13 @@ body {
   transform: rotate(-2deg);
   z-index: -1;
   pointer-events: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--foreground);
 }

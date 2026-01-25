@@ -30,7 +30,7 @@ const GridLayout: React.FC = () => {
                     </p>
                     <Link
                         href="/projects"
-                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600  hover:text-cyan-400"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
@@ -48,7 +48,7 @@ const GridLayout: React.FC = () => {
                     </p>
                     <Link
                         href="/projects"
-                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600  hover:text-cyan-400"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
@@ -66,7 +66,7 @@ const GridLayout: React.FC = () => {
                     </p>
                     <Link
                         href="/projects"
-                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600  hover:text-cyan-400"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
@@ -84,7 +84,7 @@ const GridLayout: React.FC = () => {
                     </p>
                     <Link
                         href="/projects"
-                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600  hover:text-cyan-400"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
@@ -95,7 +95,7 @@ const GridLayout: React.FC = () => {
 
                     <Link
                         href="/projects"
-                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600  hover:text-cyan-400"
+                        className="flex items-center gap-1 text-sm font-semibold leading-6 transition-colors text-zinc-900 hover:text-cyan-600 hover:text-cyan-400"
                     >
                         View Projects <span aria-hidden="true">→</span>
                     </Link>
