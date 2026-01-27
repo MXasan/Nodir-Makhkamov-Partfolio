@@ -38,7 +38,7 @@ export default async function Article({ params }: { params: Promise<{ slug: stri
 
     return (
         <Container>
-            <div className="py-16 sm:py-24">
+            <div className="py-16 sm:py-25">
                 <Link
                     href="/articles"
                     className="flex items-center justify-center w-10 h-10 mb-8 transition bg-white border rounded-full shadow-md group shadow-zinc-800/5 ring-1 ring-zinc-900/5 border-zinc-700/50 bg-zinc-800 ring-0 ring-white/10 hover:border-zinc-700 hover:ring-white/20"

@@ -3,7 +3,6 @@ import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { Menu } from "@/components/ui/menu"
 const fraunces = Fraunces({
   variable: "--font-fraunces",
   subsets: ["latin"],
